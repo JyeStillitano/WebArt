@@ -4,48 +4,31 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.container {
-  display: grid;
-  border: 1px solid rgb(144, 109, 200);
-  margin: 40px;
-  border-radius: 20px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto; 
-}
-
-
-
-.Artwork {
-  margin: 5%;
-  margin-left: auto;
-  margin-right: auto; 
-  max-width: 80%;
-}
-
-.Artwork img {
-  max-width: 100%;
-}
-
 .Logo {
   margin-left: auto;
   margin-right: auto;
   max-width: 400px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
-/*
+.container {
+  display: grid;
+  margin: 40px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
 .Artwork {
+  margin-left: auto;
+  margin-right: auto; 
+  padding: 5%;
   margin: 5%;
+  max-width: 80%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .Artwork img {
   max-width: 100%;
-  max-height: 800px;
 }
-
-footer {
-  margin-top: 30px;
-}
-*/

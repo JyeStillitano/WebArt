@@ -1,5 +1,24 @@
+import Button from '@mui/material/Button';
+import ButtonGroup from '@mui/material/ButtonGroup';
+import Box from '@mui/material/Box';
 import Header from "./components/Header"
 import Artwork from "./components/Artwork"
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      light: '#6d6d6d',
+      main: '#424242',
+      dark: '#1b1b1b'
+    },
+    secondary: {
+      light: '#ffffff',
+      main: '#e8eaf6',
+      dark: '#b6b8c3'
+    },
+  },
+});
 
 const allArt = [
   {
@@ -24,12 +43,30 @@ const allArt = [
 
 function App() {
   return (
-    <div className="container">
-      <Header logo="/Signature.jpg"/>
-      {allArt.map((art) => (
-        <Artwork image={art.imageSrc} title={art.title} description={art.description} date={art.date} style={{ alignSelf: 'center' }}/>
-      ))}
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="container">
+        <Header logo="/Signature.jpg"/>
+        <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          '& > *': {
+            m: 1,
+          },
+        }}
+      >
+        <ButtonGroup variant="text" size="large">
+          <Button>Digital</Button>
+          <Button>Drawing</Button>
+          <Button>Sculpting</Button>
+        </ButtonGroup>
+      </Box>
+        {allArt.map((art) => (
+          <Artwork image={art.imageSrc} title={art.title} description={art.description} date={art.date} style={{ alignSelf: 'center' }}/>
+        ))}
+      </div>
+    </ThemeProvider>
   );
 }
 
