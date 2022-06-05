@@ -4,29 +4,35 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.Logo {
+img {
   margin-left: auto;
   margin-right: auto;
+}
+
+.Logo {
   max-width: 400px;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .container {
   display: grid;
-  margin: 40px;
-  max-width: 90%;
   margin-left: auto;
   margin-right: auto; 
 }
 
 .Artwork {
+  /* Padding */
+  padding: 40px;
+  /* Border */
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* Margin */
+  margin: 20px;
   margin-left: auto;
   margin-right: auto; 
-  padding: 5%;
-  margin: 5%;
-  max-width: 80%;
-  border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  max-width: 100vh;
 }
 
 .Artwork img {
