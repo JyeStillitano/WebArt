@@ -1,9 +1,8 @@
 import PropTypes from 'prop-types'
-
 const Artwork = ({image, title, description, date}) => {
   return (
     <div className="Artwork">
-      <img src={image} alt="File missing..."/>
+      <img src={process.env.PUBLIC_URL + image} alt=""/>
       <h1>{title}</h1>
       <p>{description}<br />{date}</p>
     </div>

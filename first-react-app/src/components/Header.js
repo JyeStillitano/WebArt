@@ -7,7 +7,7 @@ const Header = ({logo}) => {
 }
 
 Header.propTypes = {
-    title: PropTypes.string.isRequired
+    logo: PropTypes.string.isRequired
 }
 
 export default Header

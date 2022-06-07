@@ -1,13 +1,9 @@
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Box from '@mui/material/Box';
-import Header from "./components/Header"
-import Artwork from "./components/Artwork"
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-
-import Digital from './Digital.js'
-import Drawing from './Drawing.js'
-import Sculpting from './Sculpting.js'
+import Header from "./components/Header";
+import Artwork from "./components/Artwork";
 
 const theme = createTheme({
   palette: {
@@ -27,21 +23,20 @@ const theme = createTheme({
 const allArt = [
   {
     imageSrc: "/images/FaceIt.jpg",
-    title: 'Face It',
-    description: 'Doodle.',
-    date: 'June 1, 2022'
+    title: "Face It",
+    date: "June 1, 2022"
   },
   {
     imageSrc: "/images/Ripley.png",
-    title: 'Ripley',
-    description: 'Unfinished. Ellen Ripley (Sigourney Weaver) in Aliens.',
-    date: 'March 27, 2022'
+    title: "Ripley",
+    description: "Unfinished. Ellen Ripley (Sigourney Weaver) in Aliens.",
+    date: "March 27, 2022"
   },
   {
-    imageSrc: "/images/Aldrich - Devourer of Gods.jpg",
-    title: 'Aldrich - Devourer of Gods',
-    description: 'Aldrich, Dark Souls III boss.',
-    date: 'January 31, 2022'
+    imageSrc: "/images/The Dancer-unfinished.jpg",
+    title: "The Dancer",
+    description: "The Dancer, Dark Souls III boss.",
+    date: "January 31, 2022"
   }
 ]
 
@@ -50,7 +45,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <div className="container">
         {/* Logo */}
-        <Header logo="/Signature.jpg"/>
+        <Header logo={process.env.PUBLIC_URL + "/Signature.jpg"}/>
         {/* Navigation Bar */}
         <Box
         sx={{
@@ -70,7 +65,7 @@ function App() {
         </Box>
         {/* Content */}
         {allArt.map((art) => (
-          <Artwork image={art.imageSrc} title={art.title} description={art.description} date={art.date} style={{ alignSelf: 'center' }}/>
+          <Artwork key={art.title} image={art.imageSrc} title={art.title} description={art.description} date={art.date} style={{ alignSelf: 'center' }}/>
         ))}
       </div>
     </ThemeProvider>
