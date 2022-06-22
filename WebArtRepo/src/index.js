@@ -39,10 +39,10 @@ root.render(
               <Header logo={process.env.PUBLIC_URL + "/Signature.jpg"}/>
               {/* Content */}
               <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="Digital" element={<Digital />} />
-                <Route path="Drawing" element={<Drawing />} />
-                <Route path="Sculpture" element={<Sculpture />} />
+                <Route path="/WebArt" element={<Home />} />
+                <Route path="/Digital" element={<Digital />} />
+                <Route path="/Drawing" element={<Drawing />} />
+                <Route path="/Sculpture" element={<Sculpture />} />
               </Routes>
             </BrowserRouter>
         </div>

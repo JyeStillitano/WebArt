@@ -7,7 +7,7 @@ import PropTypes from 'prop-types'
 const Header = ({logo}) => {
   return (
     <>
-      <Link to="/"><img className="Logo" src={logo} alt="Jye Stillitano" /></Link>
+      <Link to="/WebArt"><img className="Logo" src={logo} alt="Jye Stillitano" /></Link>
       <Box
         sx={{
         display: 'flex',
