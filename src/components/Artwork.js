@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+
 const Artwork = ({image, title, description, date}) => {
   return (
     <div className="Artwork">

@@ -1,0 +1,51 @@
+[
+  {
+    "imageSrc": "/images/Ripley.png",
+    "title": "Ripley",
+    "description": "Unfinished. Ellen Ripley (Sigourney Weaver) in Aliens.",
+    "date": "June 1, 2022",
+    "type": "Digital"
+  },
+  {
+    "imageSrc": "/images/Sketchbook4.jpg",
+    "title": "Untitled",
+    "description": "",
+    "date": "2021",
+    "type": "Drawing"
+  },
+  {
+    "imageSrc": "/images/SeedOfDestruction.jpg",
+    "title": "Seed of Destruction",
+    "description": "Sketches taken from pages of Mike Mignola's Hellboy: Seed of Destruction graphic novel.",
+    "date": "2022",
+    "type": "Drawing"
+  },
+  {
+    "imageSrc": "/images/Sketchbook1.jpg",
+    "title": "Untitled",
+    "description": "",
+    "date": "2021",
+    "type": "Drawing"
+  },
+  {
+    "imageSrc": "/images/Sketchbook3.jpg",
+    "title": "Untitled",
+    "description": "",
+    "date": "2021",
+    "type": "Drawing"
+  },
+  {
+    "imageSrc": "/images/VerminHost.jpg",
+    "title": "Vermin Host",
+    "description": "Bloodborne enemy: It sometimes begins as an ordinary huntsman, then undergoes a horrid transformation. The snakes which emerges from its head will lunge at the Hunter while the former huntsman's body swings its weapon in blind arcs.",
+    "date": "2022",
+    "type": "Drawing"
+  },
+  {
+    "imageSrc": "/images/Sketchbook5.jpg",
+    "title": "Untitled",
+    "description": "",
+    "date": "2021",
+    "type": "Drawing"
+  }
+]
