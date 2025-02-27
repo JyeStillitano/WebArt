@@ -7,10 +7,17 @@
     "type": "Digital"
   },
   {
-    "imageSrc": "/images/Sketchbook4.jpg",
+    "imageSrc": "/images/Zine.png",
+    "title": "Zine",
+    "description": "",
+    "date": "2025",
+    "type": "Drawing"
+  },
+  {
+    "imageSrc": "/images/Sketchbook8.png",
     "title": "Untitled",
     "description": "",
-    "date": "2021",
+    "date": "2025",
     "type": "Drawing"
   },
   {
@@ -18,6 +25,41 @@
     "title": "Seed of Destruction",
     "description": "Sketches taken from pages of Mike Mignola's Hellboy: Seed of Destruction graphic novel.",
     "date": "2022",
+    "type": "Drawing"
+  },
+  {
+    "imageSrc": "/images/Koi.png",
+    "title": "Koi",
+    "description": "",
+    "date": "2023",
+    "type": "Drawing"
+  },
+  {
+    "imageSrc": "/images/Asterius.png",
+    "title": "Untitled",
+    "description": "",
+    "date": "2023",
+    "type": "Drawing"
+  },
+  {
+    "imageSrc": "/images/Sketchbook6.png",
+    "title": "Untitled",
+    "description": "",
+    "date": "2021",
+    "type": "Drawing"
+  },
+  {
+    "imageSrc": "/images/Sketchbook7.png",
+    "title": "Untitled",
+    "description": "",
+    "date": "2021",
+    "type": "Drawing"
+  },
+  {
+    "imageSrc": "/images/Sketchbook4.jpg",
+    "title": "Untitled",
+    "description": "",
+    "date": "2021",
     "type": "Drawing"
   },
   {
